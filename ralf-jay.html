@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ralf-Jay</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer type="text/javascript" src="modal-toggle.js"></script>
+  </head>
+  <body>
+    <div class="image-container">
+      <div class="form-container d-none">
+        <div class="form-container--linear">
+          <form
+            id="contact_Form"
+            onsubmit="hideForm()"
+            target="_blank"
+            action="https://formsubmit.co/0bb7c32c7215c1352c983f23007933c8"
+            method="POST"
+          >
+            <span class="form-description">Contact Me</span>
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <textarea
+                    placeholder="Your Message"
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-row">
+                <button type="submit " class="button submit">
+                  Submit Form
+                </button>
+                <a href="#" class="button cancel toggle">Cancel</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="social-links-container">
+        <div class="vinyl">
+          <a target="_blank" href="https://www.instagram.com/ralf_jay/?hl=en">
+            <img class="" src="assets/icons/instagram.svg" />
+          </a>
+        </div>
+
+        <div class="vinyl">
+          <a
+            target="_blank"
+            href="https://open.spotify.com/artist/0VPjoHRGyaRZboop09IXBq"
+          >
+            <img class="white" src="assets/icons/spotify.svg" />
+          </a>
+        </div>
+        <div class="vinyl">
+          <a target="_blank" href="https://www.mixcloud.com/ralf_jay">
+            <img class="white" src="assets/icons/mixcloud.svg" />
+          </a>
+        </div>
+        <div class="vinyl">
+          <a href="#" class="toggle">
+            <img class="white" src="assets/icons/mail.svg" />
+          </a>
+        </div>
+      </div>
+      <img src="/assets/images/hero.jpg" />
+      <div class="form-container--linear form-container--linear__header">
+        <div class="img-header-container">
+          <img src="assets/images/ralf-jay-logo.jpg" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

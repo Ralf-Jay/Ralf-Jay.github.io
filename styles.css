@@ -384,8 +384,19 @@ form .form-description {
   color: #23d5ab;
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 650px) {
   .social-links-container {
     gap: 25px;
+  }
+  .social-links-container .vinyl {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-height: 414px) {
+  .social-links-container .vinyl {
+    width: 40px;
+    height: 40px;
   }
 }
